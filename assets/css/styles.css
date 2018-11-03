@@ -1,0 +1,83 @@
+body {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+    background-color:#ffffff;
+    border-color:#cccccc;
+    display:flex;
+    flex-direction:column;
+}
+
+header {
+    margin:auto;
+    background-color:#ffffff;
+    border-color:#cccccc;
+    width:960px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    float:left;
+    padding:20px;
+}
+
+nav {
+    float:right;
+}
+
+main {
+    margin:auto;
+    width:960px;
+    flex: 1 0 auto;
+}
+
+section {
+    clear:both;
+    padding:20px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#4aaaa5;
+}
+
+.prophoto {
+    width:200px;
+    height:225px;
+}
+
+.bio {
+    padding:10px;
+    margin-left:5px;
+    clear:both;
+}
+
+.portkey {
+    display:inline-block;
+    margin:25px;
+    width:275px;
+    height:205px;
+    position:relative;
+}
+
+.place {
+    width:275px;
+    height:205px;
+    position:absolute;
+    z-index:-1;
+}
+
+.clickylinks {
+    background-color:#4aaaa5;
+}
+
+footer {
+    position:relative;
+    background-color:#666666;
+    color:white;
+    text-align:center;
+    padding:20px;
+    clear:both;
+    bottom:-80px;
+}
