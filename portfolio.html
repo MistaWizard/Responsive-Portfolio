@@ -3,53 +3,58 @@
 <head>
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css" >
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
 </head>
 <body>
 
-    <header>
-        <h1>Tyler McKellar</h1>
-      
-    <nav>
-        <a href="index.html" >About</a>
-        <a href="portfolio.html" >Portfolio</a>
-        <a href="contact.html" >Contact</a>
-    </nav>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Tyler McKellar</a>
+            <nav>
+                <a href="index.html" >About</a>
+                <a href="portfolio.html" >Portfolio</a>
+                <a href="contact.html" >Contact</a>
+            </nav>
+        </div>
     </header>
     
-    <main>
-    <section>
-        <h2>Portfolio</h2>
-        <div>
-        <div class="portkey">
-            <img class="place"  src="assets/images/hangman.jpg" alt="Hangman">
-            <a class="clickylinks" href="#" >Hangman</a>
-        </div>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
         
-        <div class="portkey">
-            <img class="place" src="assets/images/rpg.jpg" alt="RPG Game">
-            <a class="clickylinks" href="#" >RPG Game</a>
-        </div>
+            <div class="work">
+                <img  src="assets/images/hangman.jpg" alt="Hangman">
+                <h3>Hangman</h3>
+            </div>
+        
+            <div class="work">
+                <img src="assets/images/rpg.jpg" alt="RPG Game">
+                <h3>RPG Game</h3>
+            </div>
 
-        <div class="portkey">
-            <img class="place" src="assets/images/trivia.jpg" alt="Trivia Game">
-            <a class="clickylinks" href="#" >Trivia Game</a>
-        </div>
+            <div class="work">
+                <img src="assets/images/trivia.jpg" alt="Trivia Game">
+                <h3>Trivia Game</h3>
+            </div>
 
-        <div class="portkey">
-            <img class="place" src="assets/images/info.jpg" alt="Info Widget">
-            <a class="clickylinks" href="#" >Rutgers Info Widget</a>
-        </div>
+            <div class="work">
+                <img src="assets/images/info.jpg" alt="Info Widget">
+                <h3>Rutgers Info Widget</h3>
+            </div>
 
-        <div class="portkey">
-            <img class="place" src="assets/images/roshambo.jpg" alt="Rock, Paper, Scissors, Lizards, Spock">
-            <a class="clickylinks" href="#" >Rock Paper Scissors</a>
-        </div>
-        </div>
-    </section>
-    </main>
+            <div class="work">
+                <img src="assets/images/roshambo.jpg" alt="Rock, Paper, Scissors, Lizards, Spock">
+                <h3>Rock Paper Scissors</h3>
+            </div>
+        </section>
+    </div>
     
-    <footer>Copyright &copy;</footer>
+    <footer>
+        <div class="container">
+            Copyright &copy;
+        </div>
+    </footer>
+    
 
 </body>
 </html>
